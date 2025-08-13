@@ -1,0 +1,34 @@
+
+OLED
+{
+ PB6 = SCL
+ PB7 = SDA
+}
+
+BUTTONS
+{
+ PA12 = PROG
+ PB5  = ESC
+ PB8  = START
+ PA15 = STOP
+ PB0  = SET
+ PB1  = LEFT
+ PA0  = RIGHT
+ PB3  = UP
+ PB4  = DOWN
+}
+
+OUTPUT BITS
+{
+ PA1   = 1(LSB)
+ PA2   = 2 
+ PA3   = 4
+ PA4   = 8
+ PA5   = 16
+ PA6   = 32
+ PA7   = 64
+ PA8   = 128
+ PA9   = 256
+ PA10  = 512
+ PA11  = 1024(MSB)
+}
